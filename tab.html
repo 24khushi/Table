@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>
+    Table using DOM
+  </title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+
+</head>
+<body>
+  <form id="myForm" onsubmit= "return validateForm()">
+    <label for="id">Id</label>
+    <input type="text" disabled id="id" name="id"><br>
+
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    
+    <label for="gender">Gender:</label>
+<select id="gender" name="gender">
+  <option value="M">Male</option>
+  <option value="F">Female</option>
+  <option value="other">Other</option>
+</select>
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age"><br>
+   
+    <button id="submit-btn" type="submit">Submit</button>
+  </form>
+  <br>
+  <div id="table-container">
+    <table border=1 id="myTable">
+      <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Actions</th>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td> 1 </td>
+          <td> AArti Singh </td>
+          <td> F </td>
+          <td> 16 </td>
+          <td class="ed">
+            <button onclick="editRow(this)">Edit</button>
+            <button onclick="deleteRow(this)">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td> 2 </td>
+          <td> Asj kjsngh </td>
+          <td> M </td>
+          <td> 22 </td>
+          <td>
+            <button onclick="editRow(this)">Edit</button>
+            <button onclick="deleteRow(this)">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td> 3 </td>
+          <td> AAfeug iugsu </td>
+          <td> F </td>
+          <td> 55 </td>
+          <td>
+            <button onclick="editRow(this)">Edit</button>
+            <button onclick="deleteRow(this)">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td> 4 </td>
+          <td> sfg slehfuih </td>
+          <td> M </td>
+          <td> 67 </td>
+          <td>
+            <button onclick="editRow(this)">Edit</button>
+            <button onclick="deleteRow(this)">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td> 5 </td>
+          <td> AAfuh swg </td>
+          <td> M </td>
+          <td> 35 </td>
+          <td>
+            <button onclick="editRow(this)">Edit</button>
+            <button onclick="deleteRow(this)">Delete</button>
+          </td>
+        </tr> -->
+      </tbody>
+    </table>
+    <div id="bt">
+      <input id="btn" type="button" value="Click" onclick="myCreateFunction();" />
+      <input id="btn2" type="button" value="Add Styling" onclick="addStyle();"  />
+    </div>
+  </div>
+</body>
+</html>

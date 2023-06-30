@@ -1,0 +1,100 @@
+
+body{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+}
+#btn{
+    padding: 10px 20px;
+    background-color: rgb(125, 125, 209);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #806262;
+    border-radius: 4px;
+    
+    
+}
+td{
+    padding: 10px;
+    text-align: middle;
+    vertical-align: baseline;
+    color: rgb(100, 54, 88);
+}
+th {
+    background-color: #144533;
+    color: white;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #9a7474;
+    
+  }
+  
+#btn2 {
+    padding: 10px 20px;
+    background-color: rgb(94, 94, 126);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #myForm
+  {
+    margin-top: 20%;
+    margin-left: 28%;
+    height: fit-content;
+    width: max-content;
+    line-height: normal;
+    padding: 0vmin;
+    place-content:inherit;
+    width: 300px;
+  margin: 0 auto;
+     }
+     label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: rgb(103, 103, 141);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="text"], input[type="email"] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #9d8282;
+        border-radius: 4px;
+      }
+        #gender
+        {
+          width: 100%;
+          padding: 5px;
+          border: 1px solid #9d8282;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          font-size: 14px;
+          color: #333;
+          background-color: #fff;
+        }
+        #gender:hover {
+          border-color: #888;
+        }
+        
+        #gender:focus {
+          outline: none;
+          box-shadow: 0 0 5px #888;
+        }
